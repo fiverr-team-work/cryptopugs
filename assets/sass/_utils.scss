@@ -1,77 +1,80 @@
 @font-face {
-	font-family: "Roboto";
-	src: url("/fonts/Roboto-Regular-webfont.ttf") ,
-		 url("/fonts/Roboto-Medium-webfont.ttf") ,
-		 url("/fonts/Roboto-Bold-webfont.ttf") ;
-}
-// fonts
-// buttons
-// variables
-
-*{
-	margin: 0;
-	padding: 0;
-
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto/Roboto-Bold.ttf")  format("truetype");;
 }
 
-a , button,  ul.nav, li.navs{
-	all: unset;
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype");;
 }
 
-li{
-	list-style: none;
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
 
+a,
+button,
+ul.nav,
+li.navs {
+  all: unset;
+}
 
-	body{
-		font-family: "Roboto";
-		// overflow-x: hidden;
-		width: 100vh;
-		height: 100%;
-		background-image: url(../img/background-img.jpg);
-		color: #fff;
-	}
+li {
+  list-style: none;
+}
 
+body {
+  // font-family: "Roboto";
+  width: 100vh;
+  height: 100%;
+  background-image: url(../img/background-img.jpg);
+  color: #fff;
+}
 
-
-	html {
-		font-size: 100%; /* 1 */
-		-webkit-text-size-adjust: 100%; /* 2 */
-		-ms-text-size-adjust: 100%; /* 2 */
-		scroll-behavior: smooth;
-	  }
+html {
+  font-size: 100%; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 
 .container {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
   }
-  @media (min-width: 768px) {
-	.container {
-	  width: 750px;
-	}
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
   }
-  @media (min-width: 992px) {
-	.container {
-	  width: 970px;
-	}
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
   }
-  @media (min-width: 1200px) {
-	.container {
-	  width: 1170px;
-	}
-  }
-
-
-.btn{
-	font-family: "roboto";
-	font-weight: 900;
-	font-size: 47px;
 }
 
+.btn {
+  font-family: "Roboto-Bold";
+  font-weight: 900;
+  font-size: 47px;
+}
 
 h1{
+  	font-family: "Roboto-Bold";
 	font-weight: bold;
+
 }
