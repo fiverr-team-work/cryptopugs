@@ -1,0 +1,177 @@
+// 1 - utils;
+@import "utils";
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*
+**  nav
+*/
+
+nav{
+	background: green;
+	.navs{
+		background: red;
+		margin-top: 30px;
+		font-weight: 900;
+		font-size: 36px;
+		line-height: 42px;
+		cursor: pointer;
+	}
+}
+
+
+/*
+**  launch
+*/
+
+.launch {
+  margin-bottom: 357px;
+  display: flex;
+  justify-content: space-between;
+  .details {
+    img {
+      height: 165px;
+    }
+    .infos {
+		white-space: nowrap;
+      font-family: "Roboto";
+      font-size: 48px;
+      margin-bottom: 100px;
+    }
+
+    .btns {
+      display: flex;
+      justify-content: space-between;
+      .btn {
+        padding: 40px 12px;
+        background: #55a3cf;
+        border-radius: 8px;
+		white-space: nowrap;
+      }
+    }
+  }
+  img {
+    width: 700px;
+    height: 700px;
+  }
+}
+
+
+/*
+**
+*/
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 102px;
+  h1 {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 84px;
+
+    white-space: nowrap;
+    margin-bottom: 76px;
+  }
+  p {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+/*
+**
+*/
+
+#roadmap {
+  margin-top: 270px;
+  h1 {
+	  text-align: center;
+    font-weight: 900;
+    font-size: 85px;
+    line-height: 100px;
+  }
+  .card {
+    padding: 24px;
+    border: 1px solid #fff;
+    // display: inline;
+    max-width: 507px;
+    border-radius: 8px;
+    h2 {
+      font-family: Roboto;
+      font-weight: 900;
+      font-size: 42px;
+      line-height: 49px;
+    }
+    p {
+      font-weight: normal;
+      font-size: 28px;
+      line-height: 33px;
+    }
+  }
+  .card2, .card4{
+	  margin-left: auto;
+  }
+}
+
+/*
+**
+*/
+
+#faq{
+	margin-top: 264px;
+	text-align: center;
+	h1{
+		color: #B2CDDA;
+
+		font-weight: 900;
+		font-size: 85px;
+		line-height: 100px;
+	}
+	h3{
+		color: #B2CDDA;
+
+		font-weight: 900;
+		font-size: 40px;
+		line-height: 70px;
+	}
+	p{
+
+		font-weight: normal;
+		font-size: 30px;
+		line-height: 60px;
+
+	}
+	.question{
+		margin-top: 20px;
+	}
+}
+
+/*
+**
+*/
+
+.end{
+	margin-top: 126px;
+	.follow-us{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 40px;
+	}
+	p{
+		text-align: center;
+		font-weight: normal;
+		font-size: 36px;
+		line-height: 42px;
+		margin-top: 45px;
+		margin-bottom: 73px;
+	}
+}

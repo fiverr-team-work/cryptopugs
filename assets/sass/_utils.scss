@@ -1,0 +1,77 @@
+@font-face {
+	font-family: "Roboto";
+	src: url("/fonts/Roboto-Regular-webfont.ttf") ,
+		 url("/fonts/Roboto-Medium-webfont.ttf") ,
+		 url("/fonts/Roboto-Bold-webfont.ttf") ;
+}
+// fonts
+// buttons
+// variables
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+a , button,  ul.nav, li.navs{
+	all: unset;
+}
+
+li{
+	list-style: none;
+}
+
+
+
+	body{
+		font-family: "Roboto";
+		// overflow-x: hidden;
+		width: 100vh;
+		height: 100%;
+		background-image: url(../img/background-img.jpg);
+		color: #fff;
+	}
+
+
+
+	html {
+		font-size: 100%; /* 1 */
+		-webkit-text-size-adjust: 100%; /* 2 */
+		-ms-text-size-adjust: 100%; /* 2 */
+		scroll-behavior: smooth;
+	  }
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+  }
+  @media (min-width: 768px) {
+	.container {
+	  width: 750px;
+	}
+  }
+  @media (min-width: 992px) {
+	.container {
+	  width: 970px;
+	}
+  }
+  @media (min-width: 1200px) {
+	.container {
+	  width: 1170px;
+	}
+  }
+
+
+.btn{
+	font-family: "roboto";
+	font-weight: 900;
+	font-size: 47px;
+}
+
+
+h1{
+	font-weight: bold;
+}
